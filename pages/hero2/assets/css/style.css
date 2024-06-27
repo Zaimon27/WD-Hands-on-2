@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    & a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+section.hero-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/dallasbg.jpg);
+    background-size: cover;
+    background-position: center;
+
+    & img{
+        height: 100vh;
+        object-fit: cover;
+    }
+    & .hero-text{
+        color: white;
+        font-size: 2rem;
+        border: 1px solid white;
+        padding: 1rem;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        max-width: 25rem;
+        text-align: center;
+        margin-right: 3rem;
+    }
+}
